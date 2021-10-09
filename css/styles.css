@@ -71,6 +71,10 @@ ul {
   line-height: calc(31 / 26);
 }
 
+.thumb {
+  position: relative;
+}
+
 .address {
   font-style: inherit;
 }
@@ -340,6 +344,24 @@ ul {
   /* width: 370px;
   height: 294px; */
   flex-basis: calc(100% / 3 - var(--flex-margin));
+}
+
+.mission-text {
+  height: 70px;
+  width: 100%;
+  padding: 27px 0;
+
+  position: absolute;
+  bottom: 0;
+
+  background: rgba(47, 48, 58, 0.8);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
 }
 
 /* Наша команда */
