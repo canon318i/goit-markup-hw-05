@@ -681,7 +681,8 @@ ul {
   color: var(--secondary-text-color);
 }
 
-.examples-link:hover .examples-overlay {
+.examples-link:hover .examples-overlay,
+.examples-link:focus .examples-overlay {
   transform: translateY(-100%);
 }
 
