@@ -702,7 +702,7 @@ ul {
   background-color: rgba(0, 0, 0, 0.2);
 
   transition-property: opacity;
-  transition-duration: 500ms;
+  transition-duration: 250ms;
   transition-timing-function: ease-in-out;
 }
 
@@ -718,7 +718,7 @@ ul {
 
   transform: rotateX(0);
   transition-property: transform;
-  transition-duration: 500ms;
+  transition-duration: 250ms;
   transition-timing-function: ease-in-out;
 
   background: var(--main-bkg-color);
